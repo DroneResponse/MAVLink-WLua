@@ -6695,7 +6695,7 @@ f.CAMERA_IMAGE_CAPTURED_q_1 = ProtoField.new("q[1] (float)", "mavlink_proto.CAME
 f.CAMERA_IMAGE_CAPTURED_q_2 = ProtoField.new("q[2] (float)", "mavlink_proto.CAMERA_IMAGE_CAPTURED_q_2", ftypes.FLOAT, nil)
 f.CAMERA_IMAGE_CAPTURED_q_3 = ProtoField.new("q[3] (float)", "mavlink_proto.CAMERA_IMAGE_CAPTURED_q_3", ftypes.FLOAT, nil)
 f.CAMERA_IMAGE_CAPTURED_image_index = ProtoField.new("image_index (int32_t)", "mavlink_proto.CAMERA_IMAGE_CAPTURED_image_index", ftypes.INT32, nil)
-f.CAMERA_IMAGE_CAPTURED_capture_result = ProtoField.new("capture_result (MAV_BOOL)", "mavlink_proto.CAMERA_IMAGE_CAPTURED_capture_result", ftypes.INT8, nil, base.HEX_DEC)
+f.CAMERA_IMAGE_CAPTURED_capture_result = ProtoField.new("capture_result (MAV_BOOL)", "mavlink_proto.CAMERA_IMAGE_CAPTURED_capture_result", ftypes.INT8, nil, base.DEC)
 f.CAMERA_IMAGE_CAPTURED_capture_result_flagMAV_BOOL_TRUE = ProtoField.bool("mavlink_proto.CAMERA_IMAGE_CAPTURED_capture_result.MAV_BOOL_TRUE", "MAV_BOOL_TRUE", 4, nil, 1)
 f.CAMERA_IMAGE_CAPTURED_file_url = ProtoField.new("file_url (char)", "mavlink_proto.CAMERA_IMAGE_CAPTURED_file_url", ftypes.STRING, nil)
 
